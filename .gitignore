@@ -1,0 +1,4 @@
+cookies.json
+__pycache__/
+*.pyc
+data/political_tweets_india.csv  # Optional: exclude data if not wanted in repo
