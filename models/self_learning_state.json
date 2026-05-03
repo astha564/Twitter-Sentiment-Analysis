@@ -1,0 +1,46 @@
+{
+  "round": 5,
+  "accuracy_history": [
+    {
+      "round": 1,
+      "total_labelled": 1697,
+      "human_labelled": 1003,
+      "pseudo_labelled": 694,
+      "train_accuracy": 0.9769,
+      "uncertain_count": 168
+    },
+    {
+      "round": 2,
+      "total_labelled": 1712,
+      "human_labelled": 1003,
+      "pseudo_labelled": 709,
+      "train_accuracy": 0.977,
+      "uncertain_count": 167
+    },
+    {
+      "round": 3,
+      "total_labelled": 1720,
+      "human_labelled": 1003,
+      "pseudo_labelled": 717,
+      "train_accuracy": 0.9766,
+      "uncertain_count": 165
+    },
+    {
+      "round": 4,
+      "total_labelled": 1725,
+      "human_labelled": 1003,
+      "pseudo_labelled": 722,
+      "train_accuracy": 0.9767,
+      "uncertain_count": 162
+    },
+    {
+      "round": 5,
+      "total_labelled": 1726,
+      "human_labelled": 1003,
+      "pseudo_labelled": 723,
+      "train_accuracy": 0.9762,
+      "uncertain_count": 162
+    }
+  ],
+  "total_labelled": 1726
+}
