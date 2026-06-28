@@ -210,6 +210,29 @@ Generates the 5-chart dashboard at `dashboard/sentiment_dashboard.png`.
 
 ---
 
+---
+
+## 🧪 Testing
+
+Unit tests are implemented using **pytest** to verify the correctness of the sentiment analysis pipeline.
+
+Run the test suite from the project root:
+
+```bash
+python -m pytest test_twitter_sentiment.py -v
+```
+
+The test suite covers:
+
+- Tweet preprocessing pipeline
+- US political noise filtering
+- Tweet length validation
+- Sentiment classifier predictions
+- Confidence threshold validation
+- End-to-end integration tests
+
+---
+
 ## 📊 Dataset
 
 | Stage | Tweets | Notes |
@@ -318,3 +341,4 @@ If you use this work, please cite:
 ## 📝 License
 This project is submitted as a final year academic project at NMIT, Bengaluru
 under Visvesvaraya Technological University (VTU). Not licensed for commercial use.
+
